@@ -12,6 +12,9 @@ author:
   orcid: 0009-0009-3695-8118
   linkedin: gihwan-kim-5b573b184
 
+webmaster_verifications:
+  google: 98H1LxYPD4DfhYWl02lEjKAZjoovuTTmVY2SCwaWnH8
+
 timezone: America/Los_Angeles
 permalink: /blog/:year/:month/:title/
 markdown: kramdown
