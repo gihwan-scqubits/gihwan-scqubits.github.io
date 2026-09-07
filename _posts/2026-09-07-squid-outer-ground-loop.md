@@ -23,7 +23,7 @@ $$
 \end{aligned}
 $$
 
-The last relation is fluxoid quantization. How the total $$\Phi_e$$ is split into the two branch fluxes $$\Phi_{e1}$$ and $$\Phi_{e2}$$ is a gauge choice. For static flux it is invisible: shifting $$\phi$$ moves flux from one junction to the other. For time-dependent flux the choice shows up as $$\dot\Phi$$ terms in the Hamiltonian, and different choices give different predictions for things like flux-noise relaxation rates, so only one of them can be right [2, 3]. The physical one is the "irrotational" gauge, found by asking that no term linear in $$\dot\Phi_e$$ survive. With $$C_q \equiv C_S + C_1 + C_2$$ and $$Q = \partial\mathcal{L}/\partial\dot\phi = C_q\dot\phi + C_1\dot\Phi_{e1} - C_2\dot\Phi_{e2}$$,
+The last relation is fluxoid quantization. How the total $$\Phi_e$$ is split into the two branch fluxes $$\Phi_{e1}$$ and $$\Phi_{e2}$$ is a gauge choice. For static flux it is invisible: shifting $$\phi$$ moves flux from one junction to the other. For time-dependent flux the choice shows up as $$\dot\Phi$$ terms in the Hamiltonian [2, 3]. The convenient choice is the "irrotational" gauge, in which no term linear in $$\dot\Phi_e$$ survives. With $$C_q \equiv C_S + C_1 + C_2$$ and $$Q = \partial\mathcal{L}/\partial\dot\phi = C_q\dot\phi + C_1\dot\Phi_{e1} - C_2\dot\Phi_{e2}$$,
 
 $$
 \mathcal{H} = \frac{\big(Q - C_1\dot\Phi_{e1} + C_2\dot\Phi_{e2}\big)^2}{2C_q} - E_{J1}\cos(\cdots) - E_{J2}\cos(\cdots) + f(t),
