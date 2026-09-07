@@ -51,7 +51,7 @@ $$
 \Phi_{e1} + \Phi_{e2} = \Phi_e, \qquad -\Phi_{e1} - \Phi_{e2} = \Phi_e' \quad\Longrightarrow\quad \Phi_e + \Phi_e' = 0 \pmod{\Phi_0}.
 $$
 
-That says the two applied fluxes must always cancel, which is absurd: they are external knobs. The circuit is telling you something real, though. Take the two ground paths on their own. They form a closed superconducting ring with no junctions in it, and a ring with zero inductance can only hold an integer number of flux quanta. A real ring has inductance, and the mismatch is absorbed by a screening current. Fig. c threw that inductance away too early.
+That says the two applied fluxes must always cancel, which is a contradiction: they are external knobs. The circuit is telling you something real, though. Take the two ground paths on their own. They form a closed superconducting ring with no junctions in it, and a ring with zero inductance can only hold an integer number of flux quanta. A real ring has inductance, and the mismatch is absorbed by a screening current. Fig. c threw that inductance away too early.
 
 ## Putting the inductance back
 
