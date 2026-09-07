@@ -14,8 +14,8 @@ body_class: home
     <p>I received my Ph.D. in Applied Physics from Caltech in 2026, working with
     <a href="https://painterlab.caltech.edu">Oskar Painter</a> in the Quantum Photonics Group. I grew up
     in Pohang, South Korea, and studied Electrical and Computer Engineering at Seoul National University.</p>
-    <p>Outside the lab I am drawn to anything with a good story, and I spend free time cooking foods I have not
-    tried before and traveling.</p>
+    <p>Outside work I am drawn to anything with a good story (heavy emphasis on a proven ending), concerts,
+    cooking with an I-know-what-I'm-doing approach, and traveling.</p>
     {% include links.html %}
   </div>
   <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Gihwan Kim" width="168" height="168">
