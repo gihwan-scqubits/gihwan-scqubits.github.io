@@ -5,7 +5,7 @@ tags: [circuit QED, notes]
 math: true
 ---
 
-Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $$\Phi_e$$. But look at a real device and the ground plane closes a *second* loop around the whole qubit. By the circuit topology alone that loop looks just as able to tune the qubit. So why does nobody include it? I ran into this while modeling flux-noise dephasing in a SQUID coupler, where a realistic, gradiometric circuit model is needed to get the numbers right. It turned out to be a nice exercise in where lumped-element circuit models quietly break, and I found the resolution in an appendix of the gradiometric quarton coupler paper by Ye et al. [4]. Here is the short version.
+Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $$\Phi_e$$. But look at a real device and the ground plane closes a *second* loop around the whole qubit. By the circuit topology alone that loop looks just as able to tune the qubit. So why does nobody include it? I ran into this while modeling flux-noise dephasing in a SQUID coupler, where a realistic, gradiometric circuit model is needed to get the numbers right. It turned out to be a nice exercise in where lumped-element circuit models quietly break, and I found the resolution in a supplementary note of the gradiometric quarton coupler paper by Ye et al. [4]. Here is the short version.
 
 <figure>
   <img src="{{ '/assets/img/blog/squid-outer-loop.png' | relative_url }}" alt="Four circuit diagrams of a flux-tunable transmon: the textbook SQUID, a micrograph, a naive two-loop model, and the corrected model with ground inductances">
@@ -93,14 +93,14 @@ One more thing worth noticing. For $$L \ll L'$$ the correction is $$\Phi_{\text{
 
 ## Where this comes from
 
-The two-loop analysis above is a stripped-down version of Appendix B, "Flux analysis and calibration", in Ye et al. [4]. They include the loops through ground in their quarton coupler circuit by treating the ground path as an inductor with energy $$E_L$$, minimize over the ground node, and find that the junction is biased by half the differential ground-loop flux, $$\tilde\phi_{g\Delta}/2$$. That is the $$L = L'$$ case. The time-dependent flux allocation is from You, Sauls, and Koch [2]; Riwar and DiVincenzo [3] explain why the allocation is ultimately a question about geometry, not topology.
+The two-loop analysis above is a stripped-down version of Supplementary Note 1, "Flux analysis and calibration", of Ye et al. [4]. They include the loops through ground in their quarton coupler circuit by treating the ground path as an inductor with energy $$E_L$$, minimize over the ground node, and find that the junction is biased by half the differential ground-loop flux, $$\tilde\phi_{g\Delta}/2$$. That is the $$L = L'$$ case. The time-dependent flux allocation is from You, Sauls, and Koch [2]; Riwar and DiVincenzo [3] explain why the allocation is ultimately a question about geometry, not topology.
 
 ## References
 
 1. Y. Sung et al., *Realization of high-fidelity CZ and ZZ-free iSWAP gates with a tunable coupler*, [Phys. Rev. X **11**, 021058 (2021)](https://doi.org/10.1103/PhysRevX.11.021058).
 2. X. You, J. A. Sauls, and J. Koch, *Circuit quantization in the presence of time-dependent external flux*, [Phys. Rev. B **99**, 174512 (2019)](https://doi.org/10.1103/PhysRevB.99.174512).
 3. R.-P. Riwar and D. P. DiVincenzo, *Circuit quantization with time-dependent magnetic fields for realistic geometries*, [npj Quantum Inf. **8**, 36 (2022)](https://doi.org/10.1038/s41534-022-00539-x).
-4. Y. Ye et al., *Near-ultrastrong nonlinear light-matter coupling in superconducting circuits*, [Nat. Commun. (2025)](https://doi.org/10.1038/s41467-025-59152-z), Appendix B.
+4. Y. Ye et al., *Near-ultrastrong nonlinear light-matter coupling in superconducting circuits*, [Nat. Commun. (2025)](https://doi.org/10.1038/s41467-025-59152-z), Supplementary Note 1.
 5. J. Braumüller et al., *Concentric transmon qubit featuring fast tunability and an anharmonicity*, [Appl. Phys. Lett. **108**, 032601 (2016)](https://doi.org/10.1063/1.4940230).
 6. M. Tinkham, *Introduction to Superconductivity*, 2nd ed. (McGraw-Hill, 1996), Chap. 3.
 7. R. Meservey and P. M. Tedrow, *Measurements of the kinetic inductance of superconducting linear structures*, [J. Appl. Phys. **40**, 2028 (1969)](https://doi.org/10.1063/1.1657905).
