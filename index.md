@@ -72,8 +72,8 @@ body_class: home
   <a href="https://scholar.google.com/citations?user={{ site.author.scholar }}">Google Scholar</a>.</p>
 </section>
 
-<section class="section" id="talks">
-  <span class="label">Talks</span>
+<section class="section" id="conferences">
+  <span class="label">Conferences</span>
   <ul class="talks">
     {% for t in site.data.talks %}
     <li>
