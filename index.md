@@ -7,13 +7,13 @@ body_class: home
   <div>
     <h1>Gihwan Kim</h1>
     <p class="tagline">Applied Scientist, AWS Center for Quantum Computing</p>
-    <p>I build superconducting quantum circuits. My work spans circuit design and electromagnetic
-    simulation, cryogenic microwave engineering, and experiments on transmon qubits: tunable couplers
-    that avoid unwanted hybridization, engineered dissipation for fast qubit reset, dual-rail erasure
-    qubits, and waveguide QED for generating entangled microwave photons.</p>
+    <p>I build superconducting quantum circuits for hardware-efficient, fault-tolerant quantum
+    computers. My background spans the full circuit QED stack: device physics, circuit design, and
+    device measurement. Lately I am most interested in device design, and in finding the right amount
+    of nonlinearity for a scalable superconducting quantum processor.</p>
     <p>I received my Ph.D. in Applied Physics from Caltech in 2026, working with
-    <a href="https://painterlab.caltech.edu">Oskar Painter</a> in the Quantum Photonics Group, and my
-    B.S. in Electrical and Computer Engineering from Seoul National University.</p>
+    <a href="https://painterlab.caltech.edu">Oskar Painter</a> in the Quantum Photonics Group. I grew up
+    in South Korea and studied Electrical and Computer Engineering at Seoul National University.</p>
     {% include links.html %}
   </div>
   <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Gihwan Kim" width="168" height="168">
