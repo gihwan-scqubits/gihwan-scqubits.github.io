@@ -5,7 +5,7 @@ tags: [circuit QED, notes]
 math: true
 ---
 
-Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $$\Phi_e$$. But look at a real device and the ground plane closes a *second* loop around the whole qubit. By the circuit topology alone that loop looks just as able to tune the qubit. So why does nobody include it? Working this out was a nice exercise in where lumped-element circuit models quietly break, and I learned the resolution from an appendix of the gradiometric quarton coupler paper by Ye et al. [4]. Here is the short version.
+Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $$\Phi_e$$. But look at a real device and the ground plane closes a *second* loop around the whole qubit. By the circuit topology alone that loop looks just as able to tune the qubit. So why does nobody include it? I ran into this while modeling flux-noise dephasing in a SQUID coupler, where a realistic, gradiometric circuit model is needed to get the numbers right. It turned out to be a nice exercise in where lumped-element circuit models quietly break, and I found the resolution in an appendix of the gradiometric quarton coupler paper by Ye et al. [4]. Here is the short version.
 
 <figure>
   <img src="{{ '/assets/img/blog/squid-outer-loop.png' | relative_url }}" alt="Four circuit diagrams of a flux-tunable transmon: the textbook SQUID, a micrograph, a naive two-loop model, and the corrected model with ground inductances">
