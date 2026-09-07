@@ -125,6 +125,13 @@ figcaption { font-size: 0.9em; color: var(--ink-2); margin-top: 0.4rem; }
 .talks .title { margin: 0; }
 .talks .where { color: var(--ink-2); display: block; }
 
+/* Collaborators */
+.collab-intro { color: var(--ink-2); margin: 0 0 0.8rem; }
+.collab-group { font-size: 0.85rem; font-weight: 600; letter-spacing: 0.04em; color: var(--ink-3); margin: 1rem 0 0.35rem; }
+.collab { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.3rem 1.5rem; }
+.collab li { font-size: 0.97rem; line-height: 1.4; }
+.collab-meta { display: block; color: var(--ink-2); font-size: 0.9rem; }
+
 /* Blog */
 .post-list { list-style: none; margin: 0; padding: 0; }
 .post-list li { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.6rem; margin-bottom: 0.75rem; }
@@ -158,6 +165,7 @@ figcaption { font-size: 0.9em; color: var(--ink-2); margin-top: 0.4rem; }
   .pub { grid-template-columns: 1fr; gap: 0.6rem; }
   .pub-thumb { max-width: 240px; }
   .timeline li, .talks li, .post-list li { grid-template-columns: 1fr; gap: 0; }
+  .collab { grid-template-columns: 1fr; }
   .post-list li.has-thumb { grid-template-columns: 96px 1fr; gap: 0 0.8rem; }
   .post-list li.has-thumb .when { grid-column: 1 / -1; }
 }

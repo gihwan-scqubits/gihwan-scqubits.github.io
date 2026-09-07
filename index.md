@@ -60,6 +60,19 @@ body_class: home
   </ul>
 </section>
 
+<section class="section" id="collaborators">
+  <span class="label">Collaborators</span>
+  <p class="collab-intro">People I worked with during my Ph.D.</p>
+  {% for g in site.data.collaborators %}
+  <p class="collab-group">{{ g.group }}</p>
+  <ul class="collab">
+    {% for c in g.people %}
+    <li>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}<span class="collab-meta">{{ c.affiliation }}{% if c.role %} · {{ c.role }}{% endif %}</span></li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+</section>
+
 <section class="section" id="blog">
   <span class="label">Blog</span>
   <ul class="post-list">

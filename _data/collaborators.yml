@@ -1,0 +1,51 @@
+# People I worked with during my Ph.D. Grouped by where we worked together.
+- group: Quantum Photonics Group, Caltech
+  people:
+    - name: Vinicius S. Ferreira
+      affiliation: Google Quantum AI
+      role: mentor and close collaborator
+      url: https://scholar.google.com/citations?user=-iAFogkAAAAJ
+    - name: Andreas Butler
+      affiliation: Caltech
+      role: closest collaborator
+      url: https://iqim.caltech.edu/profile/andreas-butler/
+    - name: Eunjong Kim
+      affiliation: Seoul National University
+      role: advice and coauthorship
+      url: https://sites.google.com/view/snu-quantum-device
+    - name: Xueyue (Sherry) Zhang
+      affiliation: Columbia University
+      role: advice and coauthorship
+      url: https://xueyue-sherry-zhang.github.io/
+    - name: Alex Hadley
+      affiliation: AWS
+      role: collaborator
+      url: https://www.linkedin.com/in/alexhadley/
+- group: External collaborators
+  people:
+    - name: Hannes Pichler
+      affiliation: University of Innsbruck
+      url: https://iqoqi.at/en/people/staff/staff/hannes-pichler
+    - name: Alex Retzker
+      affiliation: Hebrew University and AWS
+      url: https://retzkergroup.huji.ac.il/
+    - name: Alexey V. Gorshkov
+      affiliation: University of Maryland and AWS
+      url: https://gorshkov.jqi.umd.edu/
+    - name: Or Golan
+      affiliation: Hebrew University and AWS
+    - name: Arbel Haim
+      affiliation: AWS
+      url: https://iqim.caltech.edu/profile/arbel-haim/
+    - name: Patricio Arrangoiz-Arriola
+      affiliation: AWS
+      url: https://scholar.google.com/citations?user=32HoIzQAAAAJ
+    - name: Harry Levine
+      affiliation: UC Berkeley
+      url: https://www.levine-quantum.com/
+    - name: Shahriar Aghaei
+      affiliation: AWS
+      url: https://scholar.google.com/citations?user=aGccIgYAAAAJ
+    - name: Jimmy S. C. Hung
+      affiliation: AWS
+      url: https://scholar.google.com/citations?user=kqp7EaYAAAAJ
