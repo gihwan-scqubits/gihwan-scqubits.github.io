@@ -92,11 +92,9 @@ The limits answer the question in the title.
 
 For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,(\Phi_e + \Phi_e')$$. The suppression is only $$L/L'$$, and the outer loop encloses the entire qubit pocket, so in a uniform stray field $$\Phi_e'$$ can be hundreds of times larger than $$\Phi_e$$. Whether the product is negligible depends on the geometry.
 
-The lesson: model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing: flux noise threads both physical loops, the SQUID loop and the ground-plane loop, each with its own area and inductance, and the dephasing rate has to be computed from the qubit's sensitivity to noise in both, not in the SQUID loop alone.
+## The lesson
 
-## Where this comes from
-
-The two-loop analysis is a stripped-down version of Supplementary Note 1, "Flux analysis and calibration", of Ye et al. [4], who treat the ground path as an inductor with energy $$E_L$$, minimize over the ground node, and find the junction biased by half the differential ground-loop flux, $$\tilde\phi_{g\Delta}/2$$: the $$L = L'$$ case above. The time-dependent flux allocation is from You, Sauls, and Koch [2]; Riwar and DiVincenzo [3] extend it to realistic device geometries.
+Model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing: flux noise threads both physical loops, the SQUID loop and the ground-plane loop, each with its own area and inductance, and the dephasing rate has to be computed from the qubit's sensitivity to noise in both, not in the SQUID loop alone.
 
 ## References
 
