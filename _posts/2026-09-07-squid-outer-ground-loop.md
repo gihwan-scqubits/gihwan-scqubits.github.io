@@ -59,13 +59,13 @@ A real ring has inductance, and the mismatch is absorbed by a screening current.
 
 Zero resistance is not zero inductance. A superconducting film has the usual geometric inductance of any conductor, plus a kinetic inductance from the inertia of the Cooper pairs, set by the London penetration depth $$\lambda$$ and larger for thinner or dirtier films [6, 7]. For a wide aluminium ground plane both are picohenries, against nanohenries for a junction: tiny, but not zero. The inductance also adds a node. In Fig. c the ground paths are shorted, so two loop constraints act on one node flux. With inductance, the point where the ground paths meet junction 1 becomes its own node $$\phi'$$, the degree of freedom the equations were missing.
 
-Fig. d keeps that inductance. Give the inner ground path an inductance $$L$$ and the outer path $$L'$$, and let $$\phi'$$ be the node flux where they meet junction 1. Allocate the external fluxes to the inductors (there is no capacitance across them, so this satisfies the irrotational condition trivially). The inductive energy is
+Fig. d keeps that inductance. Give the inner ground path an inductance $$L$$ and the outer path $$L'$$, and allocate the external fluxes to the inductors. The inductive energy is
 
 $$
 U_L(\phi') = \frac{(\phi' + \Phi_e)^2}{2L} + \frac{(\phi' - \Phi_e')^2}{2L'} .
 $$
 
-Because $$L, L' \ll L_J$$ for any sensible ground plane, $$\phi'$$ is not a soft degree of freedom. It sits at the minimum of $$U_L$$:
+Because $$E_L \gg E_J$$ for any sensible ground plane, the mode associated with $$\phi'$$ sits far above the qubit in frequency. It follows any change of flux adiabatically, with a negligible rate of nonadiabatic transitions, so we can replace $$\phi'$$ by its equilibrium value and skip the gauge subtleties for this node. (This stops being safe once $$E_J$$ grows comparable to $$E_L$$, as it can with very large junctions.) The minimum of $$U_L$$ is at
 
 $$
 \phi'_{\min} = \frac{L\,\Phi_e' - L'\,\Phi_e}{L + L'}, \qquad I_{\text{circ}} = \frac{\Phi_e + \Phi_e'}{L + L'} .
