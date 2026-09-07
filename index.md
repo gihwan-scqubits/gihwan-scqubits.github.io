@@ -6,7 +6,7 @@ body_class: home
 <section class="intro">
   <div>
     <h1>Gihwan Kim</h1>
-    <p class="tagline">Applied Scientist, AWS Center for Quantum Computing</p>
+    <p class="tagline">Applied Scientist, AWS Center for Quantum Computing, Pasadena, CA</p>
     <p>I build superconducting quantum circuits for hardware-efficient, fault-tolerant quantum
     computers. My background spans the full circuit QED stack: device physics, circuit design, and
     device measurement. At the AWS Center for Quantum Computing I work on design and simulation toward
