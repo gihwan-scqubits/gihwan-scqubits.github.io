@@ -27,10 +27,10 @@ $$
 The last relation is fluxoid quantization. How $$\Phi_e$$ is split between the two junctions is a gauge choice: invisible for static flux, since shifting $$\phi$$ moves flux from one junction to the other, but visible as $$\dot\Phi$$ terms in the Hamiltonian when the flux varies [2, 3]. The convenient choice is the "irrotational" gauge, in which no term linear in $$\dot\Phi_e$$ survives. With $$C_q \equiv C_S + C_1 + C_2$$ and $$Q = \partial\mathcal{L}/\partial\dot\phi = C_q\dot\phi + C_1\dot\Phi_{e1} - C_2\dot\Phi_{e2}$$,
 
 $$
-\mathcal{H} = \frac{\big(Q - C_1\dot\Phi_{e1} + C_2\dot\Phi_{e2}\big)^2}{2C_q} - E_{J1}\cos(\cdots) - E_{J2}\cos(\cdots) + f(t),
+\mathcal{H} = \frac{\big(Q - C_1\dot\Phi_{e1} + C_2\dot\Phi_{e2}\big)^2}{2C_q} - E_{J1}\cos(\cdots) - E_{J2}\cos(\cdots),
 $$
 
-where $$f(t)$$ depends only on time and can be dropped. The cross term vanishes when $$C_1\dot\Phi_{e1} = C_2\dot\Phi_{e2}$$, a voltage-divider condition since $$\dot\Phi$$ is a voltage. Together with $$\Phi_{e1} + \Phi_{e2} = \Phi_e$$,
+up to terms that depend only on time. The cross term vanishes when $$C_1\dot\Phi_{e1} = C_2\dot\Phi_{e2}$$, a voltage-divider condition since $$\dot\Phi$$ is a voltage. Together with $$\Phi_{e1} + \Phi_{e2} = \Phi_e$$,
 
 $$
 \Phi_{e1} = \frac{C_2}{C_1 + C_2}\,\Phi_e, \qquad \Phi_{e2} = \frac{C_1}{C_1 + C_2}\,\Phi_e,
