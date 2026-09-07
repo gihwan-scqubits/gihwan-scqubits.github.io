@@ -167,7 +167,6 @@ figcaption { font-size: 0.9em; color: var(--ink-2); margin-top: 0.4rem; }
   .intro { grid-template-columns: 1fr; gap: 1rem; }
   .intro h1 { font-size: 1.7rem; }
   .portrait { width: 128px; order: -1; }
-  .themes { grid-template-columns: 1fr; }
   .pub { grid-template-columns: 1fr; gap: 0.6rem; }
   .pub-thumb { max-width: 240px; }
   .timeline li, .talks li, .post-list li { grid-template-columns: 1fr; gap: 0; }
