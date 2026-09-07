@@ -91,6 +91,8 @@ The limits are the answer to the question in the title.
 
 One more thing worth noticing. For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,(\Phi_e + \Phi_e')$$. The suppression is only $$L/L'$$, and the outer loop encloses the entire qubit pocket, so in a uniform stray field $$\Phi_e'$$ can be hundreds of times larger than $$\Phi_e$$. "Negligible" is a claim about a product, and it is worth checking for your geometry.
 
+The lesson is to model the ground loops explicitly whenever they can matter, rather than dropping them by habit. The outer loop is a real flux degree of freedom with its own inductance and its own area, and Eq. (2) is no harder to work with than Eq. (1). This is especially true for dephasing. Flux noise couples through every loop, each with its own area and its own $$L$$, so the sensitivity $$\partial\omega/\partial\Phi$$ that sets the dephasing rate has to be taken with respect to $$\Phi_{\text{eff}}$$, not the SQUID flux alone. That is what I needed for the SQUID coupler, and it is why this note exists.
+
 ## Where this comes from
 
 The two-loop analysis above is a stripped-down version of Supplementary Note 1, "Flux analysis and calibration", of Ye et al. [4]. They include the loops through ground in their quarton coupler circuit by treating the ground path as an inductor with energy $$E_L$$, minimize over the ground node, and find that the junction is biased by half the differential ground-loop flux, $$\tilde\phi_{g\Delta}/2$$. That is the $$L = L'$$ case. The time-dependent flux allocation is from You, Sauls, and Koch [2]; Riwar and DiVincenzo [3] explain why the allocation is ultimately a question about geometry, not topology.
