@@ -33,7 +33,7 @@ body_class: home
     {% for x in site.data.experience.education %}
     <li>
       <span class="when">{{ x.dates }}</span>
-      <p class="what"><strong>{{ x.degree }}</strong>, <span>{{ x.org }}</span>{% if x.note %}<span class="note">{{ x.note }}</span>{% endif %}</p>
+      <p class="what"><strong>{{ x.degree }}</strong>, <span>{{ x.org }}</span>{% if x.note %}<span class="note">{{ x.note }}</span>{% endif %}{% if x.thesis %}<span class="note">Thesis: <a href="{{ x.thesis.url }}"><em>{{ x.thesis.title }}</em></a></span>{% endif %}</p>
     </li>
     {% endfor %}
   </ul>
