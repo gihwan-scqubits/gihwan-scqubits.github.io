@@ -13,7 +13,7 @@ Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $
   <figcaption><strong>a</strong>, The textbook flux-tunable transmon. <strong>b</strong>, A real one, with the SQUID flux $\Phi_e$ and the ground-plane loop flux $\Phi_e'$ marked. Micrograph from Sung et al. [1]. <strong>c</strong>, The naive way to add the outer loop, which is wrong. <strong>d</strong>, The right way: the ground path has inductance and carries a screening current.</figcaption>
 </figure>
 
-## The textbook loop
+## The textbook circuit quantization
 
 Fig. a has one node flux $$\phi$$, two junctions with capacitances $$C_1, C_2$$ and Josephson energies $$E_{J1}, E_{J2}$$, and a shunt $$C_S$$. With $$\varphi_0 \equiv \Phi_0/2\pi$$, and with the external flux allowed to depend on time so that it enters the kinetic terms too [2],
 
