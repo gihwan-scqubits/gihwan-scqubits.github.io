@@ -87,7 +87,7 @@ The limits are the answer to the question in the title.
 
 - **$$L \ll L'$$.** $$\Phi_{\text{eff}} \to \Phi_e$$, the textbook result. This is the usual situation: the inner ground strip is a few micrometres long, the outer path goes around the whole island. The stiff inner loop pins the flux, and that is why nobody draws $$\Phi_e'$$.
 - **$$L' \ll L$$.** $$\Phi_{\text{eff}} \to -\Phi_e'$$. Now the outer loop is the stiff one and the roles swap.
-- **$$L = L'$$.** $$\Phi_{\text{eff}} = (\Phi_e - \Phi_e')/2$$. Only the *difference* of the two fluxes matters, and only half of it. This is a gradiometric SQUID: a uniform field that threads both loops equally does nothing, which is the whole point of gradiometric transmons [5] and couplers [4]. The factor of one half is the price.
+- **$$L = L'$$.** $$\Phi_{\text{eff}} = (\Phi_e - \Phi_e')/2$$. Only the *difference* of the two fluxes matters, and only half of it. This is a gradiometric SQUID: a uniform field that threads both loops equally does nothing, which is the whole point of gradiometric transmons [5] and couplers [4].
 
 One more thing worth noticing. For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,(\Phi_e + \Phi_e')$$. The suppression is only $$L/L'$$, and the outer loop encloses the entire qubit pocket, so in a uniform stray field $$\Phi_e'$$ can be hundreds of times larger than $$\Phi_e$$. "Negligible" is a claim about a product, and it is worth checking for your geometry.
 
