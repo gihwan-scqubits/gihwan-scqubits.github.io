@@ -94,7 +94,7 @@ For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,
 
 ## The lesson
 
-Model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing: flux noise threads both physical loops, the SQUID loop and the ground-plane loop, each with its own area and inductance, and the dephasing rate has to be computed from the qubit's sensitivity to noise in both, not in the SQUID loop alone.
+Model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing: flux noise threads both physical loops, the SQUID loop and the ground-plane loop, each with its own area and inductance, and the dephasing rate has to be computed from the qubit's sensitivity to noise in both, not in the SQUID loop alone. The same goes for designing flux control lines: a line placed to couple to the SQUID loop also couples to the ground-plane loop, and the flux it actually delivers is set by both.
 
 ## References
 
