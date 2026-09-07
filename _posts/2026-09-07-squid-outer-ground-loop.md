@@ -51,11 +51,15 @@ $$
 \Phi_{e1} + \Phi_{e2} = \Phi_e, \qquad -\Phi_{e1} - \Phi_{e2} = \Phi_e' \quad\Longrightarrow\quad \Phi_e + \Phi_e' = 0 \pmod{\Phi_0}.
 $$
 
-That says the two applied fluxes must always cancel, which is a contradiction: they are external knobs. The circuit is telling you something real, though. Take the two ground paths on their own. They form a closed superconducting ring with no junctions in it, and a ring with zero inductance can only hold an integer number of flux quanta. A real ring has inductance, and the mismatch is absorbed by a screening current. Fig. c threw that inductance away too early.
+That says the two applied fluxes must always cancel, which is a contradiction: they are external knobs. The circuit is telling you something real, though. Take the two ground paths on their own. They form a closed superconducting ring with no junctions in it, and a ring with zero inductance can only hold an integer number of flux quanta.
 
 ## Putting the inductance back
 
-Fig. d fixes this. Give the inner ground path an inductance $$L$$ and the outer path $$L'$$, and let $$\phi'$$ be the node flux where they meet junction 1. Allocate the external fluxes to the inductors (there is no capacitance across them, so this satisfies the irrotational condition trivially). The inductive energy is
+A real ring has inductance, and the mismatch is absorbed by a screening current. Fig. c threw that inductance away too early.
+
+Where does that inductance come from? Zero resistance is not zero inductance. Any current stores energy in the magnetic field it creates, and that is the ordinary geometric inductance of the ground path: it depends only on the shape of the metal, and a superconductor has it like any other conductor. On top of that, a supercurrent is carried by Cooper pairs that have mass, and accelerating them costs energy. That is the kinetic inductance. For a film thinner than the London penetration depth $$\lambda$$ it is about $$\mu_0 \lambda^2 / t$$ per square, a fraction of a picohenry per square for aluminium, and it grows as the film gets thinner or dirtier. A wide ground plane has only a few squares between the two junction feet, so both contributions are tiny: picohenries, against a junction inductance of nanohenries. But tiny is not zero, and the contradiction above is exactly what happens when you set it to zero. A superconducting ring cannot let flux through at will; it obeys fluxoid quantization, and its inductance times a screening current is what makes up the difference between the applied flux and an integer number of flux quanta.
+
+Fig. d keeps that inductance. Give the inner ground path an inductance $$L$$ and the outer path $$L'$$, and let $$\phi'$$ be the node flux where they meet junction 1. Allocate the external fluxes to the inductors (there is no capacitance across them, so this satisfies the irrotational condition trivially). The inductive energy is
 
 $$
 U_L(\phi') = \frac{(\phi' + \Phi_e)^2}{2L} + \frac{(\phi' - \Phi_e')^2}{2L'} .
