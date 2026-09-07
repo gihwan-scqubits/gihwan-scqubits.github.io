@@ -45,7 +45,7 @@ Each junction gets the fraction of flux weighted by the *other* junction's capac
 
 Now look at Fig. b. The two junctions connect the island to the ground plane at two points. Between those points the ground plane offers two paths: the short strip that closes the SQUID, and the long way around the island. Together they form a second loop, threaded by some flux $$\Phi_e'$$, and it contains the same two junctions. Nothing in the topology singles out $$\Phi_e$$ over $$\Phi_e'$$.
 
-The obvious thing to do is Fig. c: draw the outer loop as a perfect wire, because ground is ground. Fluxoid quantization on the inner and outer loops then reads
+The obvious first thing anyone would try is Fig. c: draw the outer loop as a perfect wire, because ground is ground. Fluxoid quantization on the inner and outer loops then reads
 
 $$
 \Phi_{e1} + \Phi_{e2} = \Phi_e, \qquad -\Phi_{e1} - \Phi_{e2} = \Phi_e' \quad\Longrightarrow\quad \Phi_e + \Phi_e' = 0 \pmod{\Phi_0}.
