@@ -3,23 +3,18 @@
   people:
     - name: Dr. Vinicius S. Ferreira
       affiliation: Google Quantum AI
-      role: mentor and close collaborator
       url: https://scholar.google.com/citations?user=-iAFogkAAAAJ
     - name: Dr. Andreas Butler
       affiliation: Caltech
-      role: closest collaborator
       url: https://iqim.caltech.edu/profile/andreas-butler/
     - name: Prof. Eunjong Kim
       affiliation: Seoul National University
-      role: advice and coauthorship
       url: https://sites.google.com/view/snu-quantum-device
     - name: Prof. Xueyue (Sherry) Zhang
       affiliation: Columbia University
-      role: advice and coauthorship
       url: https://xueyue-sherry-zhang.github.io/
     - name: Alex Hadley
       affiliation: AWS
-      role: collaborator
       url: https://www.linkedin.com/in/alexhadley/
 - group: External collaborators
   people:
