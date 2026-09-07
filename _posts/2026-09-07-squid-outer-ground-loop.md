@@ -9,7 +9,7 @@ Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $
 
 <figure>
   <img src="{{ '/assets/img/blog/squid-outer-loop.png' | relative_url }}" alt="Four circuit diagrams of a flux-tunable transmon: the textbook SQUID, a micrograph, a naive two-loop model, and the corrected model with ground inductances">
-  <figcaption><strong>a</strong>, The textbook flux-tunable transmon. <strong>b</strong>, A real one, with the SQUID flux $\Phi_e$ and the ground-plane loop flux $\Phi_e'$ marked. Micrograph adapted from Sung et al. [1], CC BY 4.0. <strong>c</strong>, The naive way to add the outer loop, which is wrong. <strong>d</strong>, The right way: the ground path has inductance and carries a screening current.</figcaption>
+  <figcaption><strong>a</strong>, The textbook flux-tunable transmon. <strong>b</strong>, A real one, with the SQUID flux $\Phi_e$ and the ground-plane loop flux $\Phi_e'$ marked. Micrograph from Sung et al. [1]. <strong>c</strong>, The naive way to add the outer loop, which is wrong. <strong>d</strong>, The right way: the ground path has inductance and carries a screening current.</figcaption>
 </figure>
 
 ## The textbook loop
