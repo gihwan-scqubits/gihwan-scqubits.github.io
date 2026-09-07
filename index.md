@@ -19,10 +19,6 @@ body_class: home
   <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Gihwan Kim" width="168" height="168">
 </section>
 
-<figure class="hero" aria-label="Circuit QED schematic">
-  {% include_relative assets/img/figures/hero.svg %}
-</figure>
-
 <section class="section" id="research">
   <span class="label">Research</span>
   <ul class="themes">

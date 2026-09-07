@@ -93,14 +93,6 @@ figcaption { font-size: 0.9em; color: var(--ink-2); margin-top: 0.4rem; }
 .links { list-style: none; padding: 0; margin: 0.6rem 0 0; display: flex; flex-wrap: wrap; gap: 0.35rem 0; font-size: 0.95rem; }
 .links li + li::before { content: "·"; color: var(--ink-3); margin: 0 0.55rem; }
 
-/* Hero figure */
-.hero {
-  margin: 2rem 0 0.5rem; padding: 0.6rem 0 0;
-  color: var(--ink);
-}
-.hero svg { display: block; width: 100%; height: auto; }
-.hero figcaption { font-size: 0.85rem; color: var(--ink-3); }
-
 /* Sections: no visible headings; a small margin label instead */
 .section { position: relative; border-top: 1px solid var(--rule); padding: 1.8rem 0 0.6rem; margin-top: 1.8rem; }
 .section > .label {

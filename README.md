@@ -13,7 +13,6 @@ GitHub Pages by the workflow in `.github/workflows/jekyll.yml`.
 | Positions and degrees | `_data/experience.yml` |
 | Profile links, email | `_config.yml` under `author:` |
 | Blog posts | `_posts/YYYY-MM-DD-slug.md` (set `math: true` for KaTeX) |
-| Hero figure | `assets/img/figures/hero.svg` (inlined, uses `currentColor`) |
 | Styles | `assets/css/main.css` |
 | CV | `assets/cv/Gihwan_Kim_CV.pdf` |
 
