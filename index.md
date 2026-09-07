@@ -19,32 +19,6 @@ body_class: home
   <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of Gihwan Kim" width="168" height="168">
 </section>
 
-<section class="section" id="research">
-  <span class="label">Research</span>
-  <ul class="themes">
-    <li>
-      <h3>Couplers and processor architecture</h3>
-      <p>New building blocks for superconducting processors, such as a SQUID-based cross-Kerr coupler
-      that is tunable, has no coupler mode, and leaves the qubits unhybridized.</p>
-    </li>
-    <li>
-      <h3>Dissipation engineering</h3>
-      <p>Using a metamaterial waveguide as a cold bath to reset a tunable transmon and remove leakage
-      in under 100 ns, without conditional feedback.</p>
-    </li>
-    <li>
-      <h3>Dual-rail and erasure qubits</h3>
-      <p>Fast, high-fidelity erasure checks with symmetrically coupled readout, and long-range gates
-      between dual-rail transmons.</p>
-    </li>
-    <li>
-      <h3>Waveguide QED and photonic states</h3>
-      <p>A single transmon emitter coupled to a slow-light waveguide, used to deterministically generate
-      multidimensional cluster states of microwave photons.</p>
-    </li>
-  </ul>
-</section>
-
 <section class="section" id="experience">
   <span class="label">Experience</span>
   <ul class="timeline">

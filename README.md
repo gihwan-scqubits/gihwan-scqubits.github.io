@@ -7,7 +7,7 @@ GitHub Pages by the workflow in `.github/workflows/jekyll.yml`.
 
 | What | Where |
 |---|---|
-| Bio, research themes, section order | `index.md` |
+| Bio, section order | `index.md` |
 | Publications | `_data/publications.yml` (thumbnails in `assets/img/pubs/`) |
 | Talks | `_data/talks.yml` |
 | Positions and degrees | `_data/experience.yml` |
