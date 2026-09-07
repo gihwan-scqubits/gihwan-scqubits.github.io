@@ -66,7 +66,7 @@ $$
 U_L(\phi') = \frac{(\phi' + \Phi_e)^2}{2L} + \frac{(\phi' - \Phi_e')^2}{2L'} .
 $$
 
-Because $$E_L \gg E_J$$, the $$\phi'$$ mode sits far above the qubit in frequency and follows any flux change adiabatically, so we can replace it by its equilibrium value and skip the gauge subtleties for this node. (This stops being safe once $$E_J$$ becomes comparable to $$E_L$$, as it can with very large junctions.) Minimizing $$U_L$$,
+Because $$E_L \gg E_J$$, the $$\phi'$$ mode is far too high in energy for anything at the qubit's energy scale to perturb it away from equilibrium, and it follows any flux change adiabatically. So we can replace it by its equilibrium value and skip the gauge subtleties for this node. (This stops being safe once $$E_J$$ becomes comparable to $$E_L$$, as it can with very large junctions.) Minimizing $$U_L$$,
 
 $$
 \phi'_{\min} = \frac{L\,\Phi_e' - L'\,\Phi_e}{L + L'}, \qquad I_{\text{circ}} = \frac{\Phi_e + \Phi_e'}{L + L'} ,
