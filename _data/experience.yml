@@ -5,12 +5,7 @@ positions:
     dates: 2026 – present
   - title: Research Scientist Intern
     org: AWS Center for Quantum Computing
-    dates: 2024
-    note: Modeling of simultaneous long-range two-qubit gates with dual-rail transmons.
-  - title: Research Scientist Intern
-    org: AWS Center for Quantum Computing
-    dates: 2023
-    note: Computer-aided design and simulation of superconducting circuits and qubits.
+    dates: 2023, 2024
 
 education:
   - degree: Ph.D. in Applied Physics
