@@ -62,14 +62,11 @@ body_class: home
 
 <section class="section" id="collaborators">
   <span class="label">Collaborators</span>
-  <p class="collab-intro">People I worked with during my Ph.D.</p>
+  <p class="collab-intro">People I worked with during my Ph.D. Current affiliations in parentheses.</p>
   {% for g in site.data.collaborators %}
-  <p class="collab-group">{{ g.group }}</p>
-  <ul class="collab">
-    {% for c in g.people %}
-    <li>{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}<span class="collab-meta">{{ c.affiliation }}{% if c.role %} · {{ c.role }}{% endif %}</span></li>
-    {% endfor %}
-  </ul>
+  <p class="collab"><span class="collab-group">{{ g.group }}.</span>
+    {% for c in g.people %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %} <span class="collab-meta">({{ c.affiliation }}{% if c.role %}; {{ c.role }}{% endif %})</span>{% unless forloop.last %}, {% endunless %}{% endfor %}
+  </p>
   {% endfor %}
 </section>
 
