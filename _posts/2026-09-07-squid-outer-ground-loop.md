@@ -40,7 +40,7 @@ $$
 \hat H = \frac{\hat Q^2}{2C_q} - E_{J1}\cos\!\left(\frac{\hat\phi + \frac{C_2}{C_1+C_2}\Phi_e}{\varphi_0}\right) - E_{J2}\cos\!\left(\frac{\hat\phi - \frac{C_1}{C_1+C_2}\Phi_e}{\varphi_0}\right). \tag{1}
 $$
 
-Each junction gets the flux fraction weighted by the *other* junction's capacitance. This treats $$C_S$$ as outside the loop; where the shunt physically sits changes the weights, which is the point of Ref. [3].
+Each junction gets the flux fraction weighted by the *other* junction's capacitance. This treats $$C_S$$ as outside the loop. Ref. [3] shows how to go beyond that for a real device geometry.
 
 ## The loop you forgot
 
@@ -96,7 +96,7 @@ The lesson: model the ground loops explicitly whenever they can matter. Eq. (2) 
 
 ## Where this comes from
 
-The two-loop analysis is a stripped-down version of Supplementary Note 1, "Flux analysis and calibration", of Ye et al. [4], who treat the ground path as an inductor with energy $$E_L$$, minimize over the ground node, and find the junction biased by half the differential ground-loop flux, $$\tilde\phi_{g\Delta}/2$$: the $$L = L'$$ case above. The time-dependent flux allocation is from You, Sauls, and Koch [2]; Riwar and DiVincenzo [3] explain why the allocation is ultimately a question of geometry, not topology.
+The two-loop analysis is a stripped-down version of Supplementary Note 1, "Flux analysis and calibration", of Ye et al. [4], who treat the ground path as an inductor with energy $$E_L$$, minimize over the ground node, and find the junction biased by half the differential ground-loop flux, $$\tilde\phi_{g\Delta}/2$$: the $$L = L'$$ case above. The time-dependent flux allocation is from You, Sauls, and Koch [2]; Riwar and DiVincenzo [3] extend it to realistic device geometries.
 
 ## References
 
