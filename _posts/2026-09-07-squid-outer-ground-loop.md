@@ -3,6 +3,7 @@ title: "The SQUID loop you forgot"
 subtitle: "A flux-tunable transmon has two loops, not one. Why does only one of them seem to matter?"
 tags: [circuit QED, notes]
 math: true
+thumb: /assets/img/blog/squid-outer-loop-thumb.png
 ---
 
 Every flux-tunable transmon is drawn as a single SQUID loop threaded by a flux $$\Phi_e$$. In a real device the ground plane closes a *second* loop around the whole qubit, and by topology alone it looks just as able to tune the qubit. So why does nobody include it? I ran into this while modeling flux-noise dephasing in a SQUID coupler, where a realistic, gradiometric circuit model is needed to get the numbers right, and found the resolution in a supplementary note of the gradiometric quarton coupler paper by Ye et al. [4].
@@ -29,7 +30,7 @@ $$
 \mathcal{H} = \frac{\big(Q - C_1\dot\Phi_{e1} + C_2\dot\Phi_{e2}\big)^2}{2C_q} - E_{J1}\cos(\cdots) - E_{J2}\cos(\cdots) + f(t),
 $$
 
-with $$f(t)$$ a droppable c-number. The cross term vanishes when $$C_1\dot\Phi_{e1} = C_2\dot\Phi_{e2}$$, a voltage-divider condition since $$\dot\Phi$$ is a voltage. Together with $$\Phi_{e1} + \Phi_{e2} = \Phi_e$$,
+where $$f(t)$$ depends only on time and can be dropped. The cross term vanishes when $$C_1\dot\Phi_{e1} = C_2\dot\Phi_{e2}$$, a voltage-divider condition since $$\dot\Phi$$ is a voltage. Together with $$\Phi_{e1} + \Phi_{e2} = \Phi_e$$,
 
 $$
 \Phi_{e1} = \frac{C_2}{C_1 + C_2}\,\Phi_e, \qquad \Phi_{e2} = \frac{C_1}{C_1 + C_2}\,\Phi_e,
@@ -51,7 +52,7 @@ $$
 \Phi_{e1} + \Phi_{e2} = \Phi_e, \qquad -\Phi_{e1} - \Phi_{e2} = \Phi_e' \quad\Longrightarrow\quad \Phi_e + \Phi_e' = 0 \pmod{\Phi_0},
 $$
 
-a contradiction, since the applied fluxes are external knobs. What the circuit is really saying: the two ground paths form a closed superconducting ring with no junctions, and a ring with zero inductance can only hold an integer number of flux quanta.
+a contradiction, since the two applied fluxes are set externally and independently. What the circuit is really saying: the two ground paths form a closed superconducting ring with no junctions, and a ring with zero inductance can only hold an integer number of flux quanta.
 
 ## The missing physics: superconducting films have inductance
 
@@ -59,7 +60,7 @@ A real ring has inductance, and a screening current absorbs the mismatch. Fig. c
 
 Zero resistance is not zero inductance. A superconducting film has the geometric inductance of any conductor plus a kinetic inductance from the inertia of the Cooper pairs, set by the London penetration depth $$\lambda$$ and larger for thinner or dirtier films [6, 7]. For a wide aluminium ground plane both are picohenries, against nanohenries for a junction: tiny, but not zero. The inductance also adds a node. In Fig. c two loop constraints act on one node flux; with inductance, the point where the ground paths meet junction 1 becomes its own node $$\phi'$$, the degree of freedom the equations were missing.
 
-So, Fig. d. Give the inner ground path an inductance $$L$$ and the outer path $$L'$$, and allocate the external fluxes to the inductors:
+Fig. d includes it. Give the inner ground path an inductance $$L$$ and the outer path $$L'$$, and allocate the external fluxes to the inductors:
 
 $$
 U_L(\phi') = \frac{(\phi' + \Phi_e)^2}{2L} + \frac{(\phi' - \Phi_e')^2}{2L'} .
@@ -85,11 +86,11 @@ $$
 
 The limits answer the question in the title.
 
-- **$$L \ll L'$$.** $$\Phi_{\text{eff}} \to \Phi_e$$, the textbook result. This is the usual case: the inner ground strip is a few micrometres long, the outer path goes around the whole island, and the stiff inner loop pins the flux. That is why nobody draws $$\Phi_e'$$.
+- **$$L \ll L'$$.** $$\Phi_{\text{eff}} \to \Phi_e$$, the textbook result. This is the usual case: the inner ground strip is a few micrometres long, the outer path goes around the whole island, and the loop with the smaller inductance sets the flux. That is why nobody draws $$\Phi_e'$$.
 - **$$L' \ll L$$.** $$\Phi_{\text{eff}} \to -\Phi_e'$$. The roles swap.
 - **$$L = L'$$.** $$\Phi_{\text{eff}} = (\Phi_e - \Phi_e')/2$$. Only the *difference* matters, and only half of it. This is a gradiometric SQUID: a uniform field does nothing, which is the point of gradiometric transmons [5] and couplers [4].
 
-For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,(\Phi_e + \Phi_e')$$. The suppression is only $$L/L'$$, and the outer loop encloses the entire qubit pocket, so in a uniform stray field $$\Phi_e'$$ can be hundreds of times larger than $$\Phi_e$$. "Negligible" is a claim about a product, and worth checking for your geometry.
+For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,(\Phi_e + \Phi_e')$$. The suppression is only $$L/L'$$, and the outer loop encloses the entire qubit pocket, so in a uniform stray field $$\Phi_e'$$ can be hundreds of times larger than $$\Phi_e$$. Whether the product is negligible depends on the geometry.
 
 The lesson: model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing, since flux noise couples through every loop, each with its own area and inductance, and the sensitivity $$\partial\omega/\partial\Phi$$ that sets the dephasing rate must be taken with respect to $$\Phi_{\text{eff}}$$, not the SQUID flux alone.
 

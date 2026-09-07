@@ -62,11 +62,12 @@ body_class: home
   <span class="label">Blog</span>
   <ul class="post-list">
     {% for post in site.posts limit: 3 %}
-    <li>
+    <li{% if post.thumb %} class="has-thumb"{% endif %}>
       <span class="when">{{ post.date | date: "%b %Y" }}</span>
+      {% if post.thumb %}<a class="post-thumb" href="{{ post.url | relative_url }}" aria-hidden="true" tabindex="-1"><img src="{{ post.thumb | relative_url }}" alt="" loading="lazy"></a>{% endif %}
       <div>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        {% if post.excerpt %}<p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>{% endif %}
+        {% if post.subtitle %}<p class="excerpt">{{ post.subtitle }}</p>{% elsif post.excerpt %}<p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>{% endif %}
       </div>
     </li>
     {% endfor %}
