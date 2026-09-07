@@ -1,0 +1,22 @@
+positions:
+  - title: Applied Scientist
+    org: AWS Center for Quantum Computing
+    where: Pasadena, CA
+    dates: 2026 – present
+  - title: Research Scientist Intern
+    org: AWS Center for Quantum Computing
+    dates: 2024
+    note: Modeling of simultaneous long-range two-qubit gates with dual-rail transmons.
+  - title: Research Scientist Intern
+    org: AWS Center for Quantum Computing
+    dates: 2023
+    note: Computer-aided design and simulation of superconducting circuits and qubits.
+
+education:
+  - degree: Ph.D. in Applied Physics
+    org: California Institute of Technology
+    dates: 2019 – 2026
+    note: Advisor Oskar Painter, Quantum Photonics Group. M.S. in Applied Physics along the way.
+  - degree: B.S. in Electrical and Computer Engineering
+    org: Seoul National University
+    dates: 2015 – 2019

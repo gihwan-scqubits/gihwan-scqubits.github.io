@@ -1,0 +1,58 @@
+# One entry per paper. `authors` are short-form names; the site bolds any entry
+# matching "G. Kim". Mark shared first authorship with `cofirst: true` on the
+# paper (a * is appended to the first `n_cofirst` authors).
+# Thumbnails live in assets/img/pubs/<key>.{png,jpg} (Figure 1 of the paper).
+
+- key: hung2026
+  title: "Fast, high-fidelity erasure detection of dual-rail qubits with symmetrically coupled readout"
+  authors: [J. S. C. Hung, A. Haim, M. Raha, G. Kim, Z. Huang, M.-H. Chou, M. D'Ewart, E. Davis, A. Mishra, P. Arrangoiz-Arriola, A. Khalajhedayati, D. Hover, F. G. S. L. Brandão, A. A. Clerk, A. Retzker, H. Levine, O. Painter]
+  venue: "arXiv:2604.16292"
+  status: under review
+  year: 2026
+  arxiv: "2604.16292"
+  thumb: hung2026.png
+  summary: "Mid-circuit erasure checks for dual-rail transmon qubits using a symmetrically coupled readout resonator."
+
+- key: kim2026
+  title: "A tunable, modeless, and hybridization-free cross-Kerr coupler for miniaturized superconducting qubits"
+  authors: [G. Kim, A. Butler, O. Painter]
+  venue: "arXiv:2602.03186"
+  status: under review
+  year: 2026
+  arxiv: "2602.03186"
+  thumb: kim2026.png
+  summary: "A SQUID-based coupler that produces a tunable cross-Kerr interaction without a coupler mode or qubit hybridization."
+
+- key: gorshkov2025
+  title: "Cavity-mediated cross-cross-resonance gate"
+  authors: [A. V. Gorshkov, D. Cohen, A. Haim, A. Rotem, O. Golan, G. Kim, A. Butler, C. T. Hann, O. Painter, F. G. S. L. Brandão, A. Retzker]
+  venue: "arXiv:2506.03239"
+  status: under review
+  year: 2025
+  arxiv: "2506.03239"
+  thumb: gorshkov2025.png
+  summary: "A two-qubit gate mediated by a shared cavity, with both qubits driven near the cavity frequency."
+
+- key: kim2025
+  title: "Fast unconditional reset and leakage reduction of a tunable superconducting qubit via an engineered dissipative bath"
+  authors: [G. Kim, A. Butler, V. S. Ferreira, X. Zhang, A. Hadley, E. Kim, O. Painter]
+  cofirst: true
+  n_cofirst: 2
+  venue: "Phys. Rev. Applied 24, 014013"
+  year: 2025
+  doi: "10.1103/6wc6-78y3"
+  arxiv: "2411.02950"
+  thumb: kim2025.png
+  summary: "Flux modulation of a transmon next to a metamaterial waveguide gives sub-100 ns reset and leakage removal."
+
+- key: ferreira2024
+  title: "Deterministic generation of multidimensional photonic cluster states with a single quantum emitter"
+  authors: [V. S. Ferreira, G. Kim, A. Butler, H. Pichler, O. Painter]
+  cofirst: true
+  n_cofirst: 3
+  venue: "Nat. Phys. 20, 865–870"
+  year: 2024
+  doi: "10.1038/s41567-024-02408-0"
+  arxiv: "2206.10076"
+  thumb: ferreira2024.jpg
+  summary: "A single transmon emitter and a slow-light waveguide generate 2D cluster states of microwave photons."

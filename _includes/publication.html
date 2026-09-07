@@ -1,0 +1,28 @@
+{%- assign p = include.pub -%}
+<li class="pub" id="{{ p.key }}">
+  {%- if p.thumb -%}
+  <a class="pub-thumb" href="{% if p.doi %}https://doi.org/{{ p.doi }}{% else %}https://arxiv.org/abs/{{ p.arxiv }}{% endif %}" aria-hidden="true" tabindex="-1">
+    <img src="{{ '/assets/img/pubs/' | append: p.thumb | relative_url }}" alt="" loading="lazy">
+  </a>
+  {%- endif -%}
+  <div class="pub-text">
+    <p class="pub-title">{{ p.title }}</p>
+    <p class="pub-authors">
+      {%- for a in p.authors -%}
+        {%- assign star = "" -%}
+        {%- if p.cofirst and forloop.index <= p.n_cofirst -%}{%- assign star = "*" -%}{%- endif -%}
+        {%- if a == "G. Kim" -%}<strong>{{ a }}{{ star }}</strong>{%- else -%}{{ a }}{{ star }}{%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+    </p>
+    <p class="pub-venue">
+      <span>{{ p.venue }}</span> ({{ p.year }}){% if p.status %} · <em>{{ p.status }}</em>{% endif %}
+    </p>
+    {%- if p.summary -%}<p class="pub-summary">{{ p.summary }}</p>{%- endif -%}
+    <p class="pub-links">
+      {%- if p.doi -%}<a href="https://doi.org/{{ p.doi }}">Journal</a>{%- endif -%}
+      {%- if p.arxiv -%}<a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{%- endif -%}
+      {%- if p.code -%}<a href="{{ p.code }}">Code</a>{%- endif -%}
+    </p>
+  </div>
+</li>

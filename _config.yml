@@ -1,0 +1,46 @@
+title: Gihwan Kim
+description: Gihwan Kim — Applied Scientist at the AWS Center for Quantum Computing. Superconducting quantum circuits, circuit QED, waveguide QED.
+url: "https://gihwan-scqubits.github.io"
+baseurl: ""
+lang: en
+author:
+  name: Gihwan Kim
+  email_user: gihwankim1214
+  email_domain: gmail.com
+  github: gihwan-scqubits
+  scholar: Hi6GMicAAAAJ
+  orcid: 0009-0009-3695-8118
+  linkedin: gihwan-kim-5b573b184
+
+timezone: America/Los_Angeles
+permalink: /blog/:year/:month/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: ~
+  syntax_highlighter: rouge
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+feed:
+  path: blog/feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      math: false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
+  - node_modules
