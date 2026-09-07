@@ -144,7 +144,7 @@ figcaption { font-size: 0.9em; color: var(--ink-2); margin-top: 0.4rem; }
 .post-body h3 { font-size: 1.1rem; margin: 1.5rem 0 0.4rem; }
 .post-body img { display: block; margin: 1rem auto; }
 .post-footer { margin-top: 2.5rem; border-top: 1px solid var(--rule); padding-top: 1rem; font-size: 0.92rem; }
-.disclaimer { color: var(--ink-3); }
+.disclaimer { color: var(--ink-3); font-size: 0.9rem; margin: 0.5rem 0 0; }
 .katex-display { overflow-x: auto; overflow-y: hidden; padding: 0.2rem 0; }
 
 /* Small screens */

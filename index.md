@@ -60,6 +60,7 @@ body_class: home
 
 <section class="section" id="blog">
   <span class="label">Blog</span>
+  <p class="blog-intro">Notes and occasional opinions. Views are my own and do not represent my employer.</p>
   <ul class="post-list">
     {% for post in site.posts limit: 3 %}
     <li{% if post.thumb %} class="has-thumb"{% endif %}>

@@ -12,12 +12,12 @@ layout: default
     </p>
     <h1 class="post-title">{{ page.title }}</h1>
     {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
+    <p class="disclaimer">Views are my own and do not represent my employer.</p>
   </header>
   <div class="post-body">
     {{ content }}
   </div>
   <footer class="post-footer">
-    <p class="disclaimer">Views are my own and do not represent my employer.</p>
     <p><a href="{{ '/blog/' | relative_url }}">← All posts</a></p>
   </footer>
 </article>
