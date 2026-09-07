@@ -10,8 +10,7 @@ body_class: home
     <p>I build superconducting quantum circuits for hardware-efficient, fault-tolerant quantum
     computers. My background spans the full circuit QED stack: device physics, circuit design, and
     device measurement. At the AWS Center for Quantum Computing I work on design and simulation toward
-    a scalable quantum processor. Separately, I am interested in finding the right amount of nonlinearity
-    for superconducting circuits.</p>
+    a scalable quantum processor.</p>
     <p>I received my Ph.D. in Applied Physics from Caltech in 2026, working with
     <a href="https://painterlab.caltech.edu">Oskar Painter</a> in the Quantum Photonics Group. I grew up
     in Pohang, South Korea, and studied Electrical and Computer Engineering at Seoul National University.</p>
