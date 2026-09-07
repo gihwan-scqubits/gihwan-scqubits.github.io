@@ -12,7 +12,7 @@ body_class: home
     device measurement. At the AWS Center for Quantum Computing I work on design and simulation toward
     a scalable quantum processor.</p>
     <p>I received my Ph.D. in Applied Physics from Caltech in 2026, working with
-    <a href="https://painterlab.caltech.edu">Oskar Painter</a> in the Quantum Photonics Group. I grew up
+    <a href="https://painterlab.caltech.edu">Prof. Oskar Painter</a> in the Quantum Photonics Group. I grew up
     in Pohang, South Korea, and studied Electrical and Computer Engineering at Seoul National University.</p>
     <p>Outside work I am drawn to anything with a good story (movies, books, comics, etc.), concerts,
     cooking new dishes, and traveling.</p>
