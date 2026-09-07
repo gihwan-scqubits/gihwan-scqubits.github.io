@@ -5,8 +5,8 @@ permalink: /blog/
 ---
 <section class="section" style="border-top: 0; margin-top: 0;">
   <span class="label">Blog</span>
-  <p class="blog-intro">Notes on superconducting circuits, measurement, simulation tools, and occasionally opinions.
-  Subscribe via <a href="{{ '/blog/feed.xml' | relative_url }}">RSS</a>.</p>
+  <p class="blog-intro">Notes on superconducting circuits, measurement, simulation tools, and occasionally opinions.</p>
+ </p>
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
