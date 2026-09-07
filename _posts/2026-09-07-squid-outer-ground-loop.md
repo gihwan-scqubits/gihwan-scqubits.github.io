@@ -92,7 +92,7 @@ The limits answer the question in the title.
 
 For $$L \ll L'$$ the correction is $$\Phi_{\text{eff}} \approx \Phi_e - (L/L')\,(\Phi_e + \Phi_e')$$. The suppression is only $$L/L'$$, and the outer loop encloses the entire qubit pocket, so in a uniform stray field $$\Phi_e'$$ can be hundreds of times larger than $$\Phi_e$$. Whether the product is negligible depends on the geometry.
 
-The lesson: model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing, since flux noise couples through every loop, each with its own area and inductance, and the sensitivity $$\partial\omega/\partial\Phi$$ that sets the dephasing rate must be taken with respect to $$\Phi_{\text{eff}}$$, not the SQUID flux alone.
+The lesson: model the ground loops explicitly whenever they can matter. Eq. (2) is no harder to use than Eq. (1). This applies above all to dephasing: flux noise threads both physical loops, the SQUID loop and the ground-plane loop, each with its own area and inductance, and the dephasing rate has to be computed from the qubit's sensitivity to noise in both, not in the SQUID loop alone.
 
 ## Where this comes from
 
